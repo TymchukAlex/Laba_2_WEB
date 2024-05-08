@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<link href="styles.css" rel="stylesheet">
+<html>
+<head>
+
+</head>
+<body>
+<div class="rectangle">
+    <h2>Визитівки</h2>
+    <select id="filter" onchange="loadData()">
+        <option value="filter0">Усе</option>
+        <option value="filter1">Фільтр 1</option>
+        <option value="filter2">Фільтр 2</option>
+    </select>
+    <div id="card-container" class="card-container">
+        <!-- Cards will be dynamically added here -->
+    </div>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">×</span>
+            <img src="rizdviane.jpg">
+        </div>
+    </div>
+</div>
+
+<script src="scripts.js"></script>
+
+</body>
+</html>
