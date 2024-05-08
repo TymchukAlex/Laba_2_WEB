@@ -85,4 +85,4 @@ function adjustCardWidth() {
 
 
 // Показати модальне вікно після 30 секунд
-setTimeout(showModal, 30);
+setTimeout(showModal, 300);
